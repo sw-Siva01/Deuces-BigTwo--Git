@@ -1,0 +1,379 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 353c3dd0e0f7ee543a160da529be41cb, type: 3}
+  m_Name: CardCollectionData
+  m_EditorClassIdentifier: 
+  _cards:
+  - Rank: 0
+    Suite: 0
+    CardView:
+      IsRevealed: 0
+      Sprite: {fileID: -713415647, guid: 5a8ca3441bf6ddb41994867a177da0a9, type: 3}
+      BackSprite: {fileID: -509784069, guid: 5a8ca3441bf6ddb41994867a177da0a9, type: 3}
+      CardVisualReference: {fileID: 0}
+  - Rank: 1
+    Suite: 0
+    CardView:
+      IsRevealed: 0
+      Sprite: {fileID: 1997230803, guid: 5a8ca3441bf6ddb41994867a177da0a9, type: 3}
+      BackSprite: {fileID: -509784069, guid: 5a8ca3441bf6ddb41994867a177da0a9, type: 3}
+      CardVisualReference: {fileID: 0}
+  - Rank: 2
+    Suite: 0
+    CardView:
+      IsRevealed: 0
+      Sprite: {fileID: 836243716, guid: 5a8ca3441bf6ddb41994867a177da0a9, type: 3}
+      BackSprite: {fileID: -509784069, guid: 5a8ca3441bf6ddb41994867a177da0a9, type: 3}
+      CardVisualReference: {fileID: 0}
+  - Rank: 3
+    Suite: 0
+    CardView:
+      IsRevealed: 0
+      Sprite: {fileID: -109615181, guid: 5a8ca3441bf6ddb41994867a177da0a9, type: 3}
+      BackSprite: {fileID: -509784069, guid: 5a8ca3441bf6ddb41994867a177da0a9, type: 3}
+      CardVisualReference: {fileID: 0}
+  - Rank: 4
+    Suite: 0
+    CardView:
+      IsRevealed: 0
+      Sprite: {fileID: -98905018, guid: 5a8ca3441bf6ddb41994867a177da0a9, type: 3}
+      BackSprite: {fileID: -509784069, guid: 5a8ca3441bf6ddb41994867a177da0a9, type: 3}
+      CardVisualReference: {fileID: 0}
+  - Rank: 5
+    Suite: 0
+    CardView:
+      IsRevealed: 0
+      Sprite: {fileID: -1598332481, guid: 5a8ca3441bf6ddb41994867a177da0a9, type: 3}
+      BackSprite: {fileID: -509784069, guid: 5a8ca3441bf6ddb41994867a177da0a9, type: 3}
+      CardVisualReference: {fileID: 0}
+  - Rank: 6
+    Suite: 0
+    CardView:
+      IsRevealed: 0
+      Sprite: {fileID: -2060726489, guid: 5a8ca3441bf6ddb41994867a177da0a9, type: 3}
+      BackSprite: {fileID: -509784069, guid: 5a8ca3441bf6ddb41994867a177da0a9, type: 3}
+      CardVisualReference: {fileID: 0}
+  - Rank: 7
+    Suite: 0
+    CardView:
+      IsRevealed: 0
+      Sprite: {fileID: -813776559, guid: 5a8ca3441bf6ddb41994867a177da0a9, type: 3}
+      BackSprite: {fileID: -509784069, guid: 5a8ca3441bf6ddb41994867a177da0a9, type: 3}
+      CardVisualReference: {fileID: 0}
+  - Rank: 8
+    Suite: 0
+    CardView:
+      IsRevealed: 0
+      Sprite: {fileID: 1312982607, guid: 5a8ca3441bf6ddb41994867a177da0a9, type: 3}
+      BackSprite: {fileID: -509784069, guid: 5a8ca3441bf6ddb41994867a177da0a9, type: 3}
+      CardVisualReference: {fileID: 0}
+  - Rank: 9
+    Suite: 0
+    CardView:
+      IsRevealed: 0
+      Sprite: {fileID: -1906679549, guid: 5a8ca3441bf6ddb41994867a177da0a9, type: 3}
+      BackSprite: {fileID: -509784069, guid: 5a8ca3441bf6ddb41994867a177da0a9, type: 3}
+      CardVisualReference: {fileID: 0}
+  - Rank: 10
+    Suite: 0
+    CardView:
+      IsRevealed: 0
+      Sprite: {fileID: 1932256797, guid: 5a8ca3441bf6ddb41994867a177da0a9, type: 3}
+      BackSprite: {fileID: -509784069, guid: 5a8ca3441bf6ddb41994867a177da0a9, type: 3}
+      CardVisualReference: {fileID: 0}
+  - Rank: 11
+    Suite: 0
+    CardView:
+      IsRevealed: 0
+      Sprite: {fileID: 1303538151, guid: 5a8ca3441bf6ddb41994867a177da0a9, type: 3}
+      BackSprite: {fileID: -509784069, guid: 5a8ca3441bf6ddb41994867a177da0a9, type: 3}
+      CardVisualReference: {fileID: 0}
+  - Rank: 12
+    Suite: 0
+    CardView:
+      IsRevealed: 0
+      Sprite: {fileID: -862112216, guid: 5a8ca3441bf6ddb41994867a177da0a9, type: 3}
+      BackSprite: {fileID: -509784069, guid: 5a8ca3441bf6ddb41994867a177da0a9, type: 3}
+      CardVisualReference: {fileID: 0}
+  - Rank: 0
+    Suite: 1
+    CardView:
+      IsRevealed: 0
+      Sprite: {fileID: -1530497468, guid: 5a8ca3441bf6ddb41994867a177da0a9, type: 3}
+      BackSprite: {fileID: -509784069, guid: 5a8ca3441bf6ddb41994867a177da0a9, type: 3}
+      CardVisualReference: {fileID: 0}
+  - Rank: 1
+    Suite: 1
+    CardView:
+      IsRevealed: 0
+      Sprite: {fileID: 717889579, guid: 5a8ca3441bf6ddb41994867a177da0a9, type: 3}
+      BackSprite: {fileID: -509784069, guid: 5a8ca3441bf6ddb41994867a177da0a9, type: 3}
+      CardVisualReference: {fileID: 0}
+  - Rank: 2
+    Suite: 1
+    CardView:
+      IsRevealed: 0
+      Sprite: {fileID: 857414000, guid: 5a8ca3441bf6ddb41994867a177da0a9, type: 3}
+      BackSprite: {fileID: -509784069, guid: 5a8ca3441bf6ddb41994867a177da0a9, type: 3}
+      CardVisualReference: {fileID: 0}
+  - Rank: 3
+    Suite: 1
+    CardView:
+      IsRevealed: 0
+      Sprite: {fileID: -91742294, guid: 5a8ca3441bf6ddb41994867a177da0a9, type: 3}
+      BackSprite: {fileID: -509784069, guid: 5a8ca3441bf6ddb41994867a177da0a9, type: 3}
+      CardVisualReference: {fileID: 0}
+  - Rank: 4
+    Suite: 1
+    CardView:
+      IsRevealed: 0
+      Sprite: {fileID: -791092410, guid: 5a8ca3441bf6ddb41994867a177da0a9, type: 3}
+      BackSprite: {fileID: -509784069, guid: 5a8ca3441bf6ddb41994867a177da0a9, type: 3}
+      CardVisualReference: {fileID: 0}
+  - Rank: 5
+    Suite: 1
+    CardView:
+      IsRevealed: 0
+      Sprite: {fileID: 478600375, guid: 5a8ca3441bf6ddb41994867a177da0a9, type: 3}
+      BackSprite: {fileID: -509784069, guid: 5a8ca3441bf6ddb41994867a177da0a9, type: 3}
+      CardVisualReference: {fileID: 0}
+  - Rank: 6
+    Suite: 1
+    CardView:
+      IsRevealed: 0
+      Sprite: {fileID: 929255627, guid: 5a8ca3441bf6ddb41994867a177da0a9, type: 3}
+      BackSprite: {fileID: -509784069, guid: 5a8ca3441bf6ddb41994867a177da0a9, type: 3}
+      CardVisualReference: {fileID: 0}
+  - Rank: 7
+    Suite: 1
+    CardView:
+      IsRevealed: 0
+      Sprite: {fileID: -133217001, guid: 5a8ca3441bf6ddb41994867a177da0a9, type: 3}
+      BackSprite: {fileID: -509784069, guid: 5a8ca3441bf6ddb41994867a177da0a9, type: 3}
+      CardVisualReference: {fileID: 0}
+  - Rank: 8
+    Suite: 1
+    CardView:
+      IsRevealed: 0
+      Sprite: {fileID: 1736697681, guid: 5a8ca3441bf6ddb41994867a177da0a9, type: 3}
+      BackSprite: {fileID: -509784069, guid: 5a8ca3441bf6ddb41994867a177da0a9, type: 3}
+      CardVisualReference: {fileID: 0}
+  - Rank: 9
+    Suite: 1
+    CardView:
+      IsRevealed: 0
+      Sprite: {fileID: -695772500, guid: 5a8ca3441bf6ddb41994867a177da0a9, type: 3}
+      BackSprite: {fileID: -509784069, guid: 5a8ca3441bf6ddb41994867a177da0a9, type: 3}
+      CardVisualReference: {fileID: 0}
+  - Rank: 10
+    Suite: 1
+    CardView:
+      IsRevealed: 0
+      Sprite: {fileID: 1095579173, guid: 5a8ca3441bf6ddb41994867a177da0a9, type: 3}
+      BackSprite: {fileID: -509784069, guid: 5a8ca3441bf6ddb41994867a177da0a9, type: 3}
+      CardVisualReference: {fileID: 0}
+  - Rank: 11
+    Suite: 1
+    CardView:
+      IsRevealed: 0
+      Sprite: {fileID: -809997047, guid: 5a8ca3441bf6ddb41994867a177da0a9, type: 3}
+      BackSprite: {fileID: -509784069, guid: 5a8ca3441bf6ddb41994867a177da0a9, type: 3}
+      CardVisualReference: {fileID: 0}
+  - Rank: 12
+    Suite: 1
+    CardView:
+      IsRevealed: 0
+      Sprite: {fileID: -1918531435, guid: 5a8ca3441bf6ddb41994867a177da0a9, type: 3}
+      BackSprite: {fileID: -509784069, guid: 5a8ca3441bf6ddb41994867a177da0a9, type: 3}
+      CardVisualReference: {fileID: 0}
+  - Rank: 0
+    Suite: 2
+    CardView:
+      IsRevealed: 0
+      Sprite: {fileID: -150951514, guid: 5a8ca3441bf6ddb41994867a177da0a9, type: 3}
+      BackSprite: {fileID: -509784069, guid: 5a8ca3441bf6ddb41994867a177da0a9, type: 3}
+      CardVisualReference: {fileID: 0}
+  - Rank: 1
+    Suite: 2
+    CardView:
+      IsRevealed: 0
+      Sprite: {fileID: 1287384296, guid: 5a8ca3441bf6ddb41994867a177da0a9, type: 3}
+      BackSprite: {fileID: -509784069, guid: 5a8ca3441bf6ddb41994867a177da0a9, type: 3}
+      CardVisualReference: {fileID: 0}
+  - Rank: 2
+    Suite: 2
+    CardView:
+      IsRevealed: 0
+      Sprite: {fileID: -1714984634, guid: 5a8ca3441bf6ddb41994867a177da0a9, type: 3}
+      BackSprite: {fileID: -509784069, guid: 5a8ca3441bf6ddb41994867a177da0a9, type: 3}
+      CardVisualReference: {fileID: 0}
+  - Rank: 3
+    Suite: 2
+    CardView:
+      IsRevealed: 0
+      Sprite: {fileID: -60206107, guid: 5a8ca3441bf6ddb41994867a177da0a9, type: 3}
+      BackSprite: {fileID: -509784069, guid: 5a8ca3441bf6ddb41994867a177da0a9, type: 3}
+      CardVisualReference: {fileID: 0}
+  - Rank: 4
+    Suite: 2
+    CardView:
+      IsRevealed: 0
+      Sprite: {fileID: 1883046187, guid: 5a8ca3441bf6ddb41994867a177da0a9, type: 3}
+      BackSprite: {fileID: -509784069, guid: 5a8ca3441bf6ddb41994867a177da0a9, type: 3}
+      CardVisualReference: {fileID: 0}
+  - Rank: 5
+    Suite: 2
+    CardView:
+      IsRevealed: 0
+      Sprite: {fileID: 872359529, guid: 5a8ca3441bf6ddb41994867a177da0a9, type: 3}
+      BackSprite: {fileID: -509784069, guid: 5a8ca3441bf6ddb41994867a177da0a9, type: 3}
+      CardVisualReference: {fileID: 0}
+  - Rank: 6
+    Suite: 2
+    CardView:
+      IsRevealed: 0
+      Sprite: {fileID: -535475104, guid: 5a8ca3441bf6ddb41994867a177da0a9, type: 3}
+      BackSprite: {fileID: -509784069, guid: 5a8ca3441bf6ddb41994867a177da0a9, type: 3}
+      CardVisualReference: {fileID: 0}
+  - Rank: 7
+    Suite: 2
+    CardView:
+      IsRevealed: 0
+      Sprite: {fileID: -985559337, guid: 5a8ca3441bf6ddb41994867a177da0a9, type: 3}
+      BackSprite: {fileID: -509784069, guid: 5a8ca3441bf6ddb41994867a177da0a9, type: 3}
+      CardVisualReference: {fileID: 0}
+  - Rank: 8
+    Suite: 2
+    CardView:
+      IsRevealed: 0
+      Sprite: {fileID: -258528488, guid: 5a8ca3441bf6ddb41994867a177da0a9, type: 3}
+      BackSprite: {fileID: -509784069, guid: 5a8ca3441bf6ddb41994867a177da0a9, type: 3}
+      CardVisualReference: {fileID: 0}
+  - Rank: 9
+    Suite: 2
+    CardView:
+      IsRevealed: 0
+      Sprite: {fileID: 1990588903, guid: 5a8ca3441bf6ddb41994867a177da0a9, type: 3}
+      BackSprite: {fileID: -509784069, guid: 5a8ca3441bf6ddb41994867a177da0a9, type: 3}
+      CardVisualReference: {fileID: 0}
+  - Rank: 10
+    Suite: 2
+    CardView:
+      IsRevealed: 0
+      Sprite: {fileID: -1079048959, guid: 5a8ca3441bf6ddb41994867a177da0a9, type: 3}
+      BackSprite: {fileID: -509784069, guid: 5a8ca3441bf6ddb41994867a177da0a9, type: 3}
+      CardVisualReference: {fileID: 0}
+  - Rank: 11
+    Suite: 2
+    CardView:
+      IsRevealed: 0
+      Sprite: {fileID: 469377642, guid: 5a8ca3441bf6ddb41994867a177da0a9, type: 3}
+      BackSprite: {fileID: -509784069, guid: 5a8ca3441bf6ddb41994867a177da0a9, type: 3}
+      CardVisualReference: {fileID: 0}
+  - Rank: 12
+    Suite: 2
+    CardView:
+      IsRevealed: 0
+      Sprite: {fileID: -1380229111, guid: 5a8ca3441bf6ddb41994867a177da0a9, type: 3}
+      BackSprite: {fileID: -509784069, guid: 5a8ca3441bf6ddb41994867a177da0a9, type: 3}
+      CardVisualReference: {fileID: 0}
+  - Rank: 0
+    Suite: 3
+    CardView:
+      IsRevealed: 0
+      Sprite: {fileID: 1224416701, guid: 5a8ca3441bf6ddb41994867a177da0a9, type: 3}
+      BackSprite: {fileID: -509784069, guid: 5a8ca3441bf6ddb41994867a177da0a9, type: 3}
+      CardVisualReference: {fileID: 0}
+  - Rank: 1
+    Suite: 3
+    CardView:
+      IsRevealed: 0
+      Sprite: {fileID: 413017160, guid: 5a8ca3441bf6ddb41994867a177da0a9, type: 3}
+      BackSprite: {fileID: -509784069, guid: 5a8ca3441bf6ddb41994867a177da0a9, type: 3}
+      CardVisualReference: {fileID: 0}
+  - Rank: 2
+    Suite: 3
+    CardView:
+      IsRevealed: 0
+      Sprite: {fileID: -209762140, guid: 5a8ca3441bf6ddb41994867a177da0a9, type: 3}
+      BackSprite: {fileID: -509784069, guid: 5a8ca3441bf6ddb41994867a177da0a9, type: 3}
+      CardVisualReference: {fileID: 0}
+  - Rank: 3
+    Suite: 3
+    CardView:
+      IsRevealed: 0
+      Sprite: {fileID: -1797358931, guid: 5a8ca3441bf6ddb41994867a177da0a9, type: 3}
+      BackSprite: {fileID: -509784069, guid: 5a8ca3441bf6ddb41994867a177da0a9, type: 3}
+      CardVisualReference: {fileID: 0}
+  - Rank: 4
+    Suite: 3
+    CardView:
+      IsRevealed: 0
+      Sprite: {fileID: -402263974, guid: 5a8ca3441bf6ddb41994867a177da0a9, type: 3}
+      BackSprite: {fileID: -509784069, guid: 5a8ca3441bf6ddb41994867a177da0a9, type: 3}
+      CardVisualReference: {fileID: 0}
+  - Rank: 5
+    Suite: 3
+    CardView:
+      IsRevealed: 0
+      Sprite: {fileID: -282283581, guid: 5a8ca3441bf6ddb41994867a177da0a9, type: 3}
+      BackSprite: {fileID: -509784069, guid: 5a8ca3441bf6ddb41994867a177da0a9, type: 3}
+      CardVisualReference: {fileID: 0}
+  - Rank: 6
+    Suite: 3
+    CardView:
+      IsRevealed: 0
+      Sprite: {fileID: -726621499, guid: 5a8ca3441bf6ddb41994867a177da0a9, type: 3}
+      BackSprite: {fileID: -509784069, guid: 5a8ca3441bf6ddb41994867a177da0a9, type: 3}
+      CardVisualReference: {fileID: 0}
+  - Rank: 7
+    Suite: 3
+    CardView:
+      IsRevealed: 0
+      Sprite: {fileID: -777981083, guid: 5a8ca3441bf6ddb41994867a177da0a9, type: 3}
+      BackSprite: {fileID: -509784069, guid: 5a8ca3441bf6ddb41994867a177da0a9, type: 3}
+      CardVisualReference: {fileID: 0}
+  - Rank: 8
+    Suite: 3
+    CardView:
+      IsRevealed: 0
+      Sprite: {fileID: -316663349, guid: 5a8ca3441bf6ddb41994867a177da0a9, type: 3}
+      BackSprite: {fileID: -509784069, guid: 5a8ca3441bf6ddb41994867a177da0a9, type: 3}
+      CardVisualReference: {fileID: 0}
+  - Rank: 9
+    Suite: 3
+    CardView:
+      IsRevealed: 0
+      Sprite: {fileID: 694859944, guid: 5a8ca3441bf6ddb41994867a177da0a9, type: 3}
+      BackSprite: {fileID: -509784069, guid: 5a8ca3441bf6ddb41994867a177da0a9, type: 3}
+      CardVisualReference: {fileID: 0}
+  - Rank: 10
+    Suite: 3
+    CardView:
+      IsRevealed: 0
+      Sprite: {fileID: -915535123, guid: 5a8ca3441bf6ddb41994867a177da0a9, type: 3}
+      BackSprite: {fileID: -509784069, guid: 5a8ca3441bf6ddb41994867a177da0a9, type: 3}
+      CardVisualReference: {fileID: 0}
+  - Rank: 11
+    Suite: 3
+    CardView:
+      IsRevealed: 0
+      Sprite: {fileID: 704343716, guid: 5a8ca3441bf6ddb41994867a177da0a9, type: 3}
+      BackSprite: {fileID: -509784069, guid: 5a8ca3441bf6ddb41994867a177da0a9, type: 3}
+      CardVisualReference: {fileID: 0}
+  - Rank: 12
+    Suite: 3
+    CardView:
+      IsRevealed: 0
+      Sprite: {fileID: -1066219689, guid: 5a8ca3441bf6ddb41994867a177da0a9, type: 3}
+      BackSprite: {fileID: -509784069, guid: 5a8ca3441bf6ddb41994867a177da0a9, type: 3}
+      CardVisualReference: {fileID: 0}
