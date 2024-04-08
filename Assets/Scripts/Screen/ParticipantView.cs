@@ -124,8 +124,8 @@ public class ParticipantView : IParticipantView
         {
             participantPanel.Value.CharacterImage!.color = new Color(1f, 1f, 1f, 1f);
             participantPanel.Value.cardImage!.color = new Color(1f, 1f, 1f, 1f); /// try ///
-            participantPanel.Value.playTimer!.gameObject.SetActive(true); /// try ///
-            participantPanel.Value.passImg!.gameObject.SetActive(true); /// try ///
+            participantPanel.Value.playTimer!.gameObject.SetActive(false); /// try /// // Timer should get OFF at the end of the Game
+            participantPanel.Value.passImg!.gameObject.SetActive(false); /// try ///  // Pass button should set OFF at the end of the Game
 
             if (participantPanel.Key == ParticipantIdEnum.Player)
             {

@@ -35,6 +35,7 @@ public class RestartResultView : MonoBehaviour, IResultView
         _panel.SetActive(true);
 
         Common.isON = true;
+        Debug.Log(Common.isON);
     }
 
     private void OnDestroy()
