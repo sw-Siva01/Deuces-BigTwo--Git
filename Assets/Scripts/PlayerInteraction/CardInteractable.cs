@@ -58,7 +58,7 @@ public class CardInteractable : MonoBehaviour, ICardInteractable, IDisposable
         _isSelected = true;
 
         // TODO configure this better
-        transform.position += Vector3.up * 100;
+        transform.position += Vector3.up * 0.5f;
 
         _playerInteractionController.SelectCard(_card);
     }
@@ -73,7 +73,7 @@ public class CardInteractable : MonoBehaviour, ICardInteractable, IDisposable
         _isSelected = false;
 
         // TODO configure this better
-        transform.position -= Vector3.up * 100;
+        transform.position -= Vector3.up * 0.5f;
 
         _playerInteractionController.DeselectCard(_card);
     }
