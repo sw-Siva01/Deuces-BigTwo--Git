@@ -133,6 +133,8 @@ public class ParticipantView : IParticipantView
                 {
                     participantPanel.Value.CharacterImage!.sprite = _characterSelectionService
                         .GetSelectedCharacter().HappyExpression;
+
+                    Common.instance.TotalMoney += 10f;
                 }
                 else
                 {

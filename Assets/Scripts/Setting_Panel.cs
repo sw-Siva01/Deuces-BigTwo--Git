@@ -7,14 +7,14 @@ public class Setting_Panel : MonoBehaviour
     public void OnFullScreenBtnClick()
     {
 #if UNITY_WEBGL && !UNITY_EDITOR
-        APIController.FullScreen();
+        /*APIController.FullScreen();*/
 #endif
         // HideSettings();
     }
     public void ExitWebGL()
     {
 #if UNITY_WEBGL && !UNITY_EDITOR
-        APIController.CloseWindow();
+        /*APIController.CloseWindow();*/
 #elif UNITY_EDITOR
         // EditorApplication.isPlaying = false;
 #endif
