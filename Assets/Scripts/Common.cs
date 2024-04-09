@@ -60,7 +60,7 @@ public class Common : MonoBehaviour
             {
                 for (int i = 0; i < TimerObjs.Length; i++)
                 {
-                    TimerObjs[i].SetActive(false);
+                   // TimerObjs[i].SetActive(false);
                 }
             }
             else
