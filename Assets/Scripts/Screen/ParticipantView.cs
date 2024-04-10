@@ -32,9 +32,7 @@ public class ParticipantView : IParticipantView
         _tableEventListener.OnCardSubmitted += OnCardSubmitted;
     }
 
-    private void OnCardSubmitted(
-        ParticipantIdEnum participantId,
-        ISubmittableCard submittableCard)
+    private void OnCardSubmitted(ParticipantIdEnum participantId, ISubmittableCard submittableCard)
     {
         var participantPanel = _participantPanelHashMap[participantId];
 
@@ -48,9 +46,7 @@ public class ParticipantView : IParticipantView
         _participantPanelHashMap.Clear();
         for (int i = 0; i < participantInfos.Count; i++)
         {
-            var participantView = GetParticipantPanelView(
-                i,
-                participantInfos.Count);
+            var participantView = GetParticipantPanelView(i, participantInfos.Count);
 
             participantView.NameText!.text = participantInfos[i].Name;
             participantView.CardCountText!.text = participantInfos[i].CardCount.ToString();
@@ -66,9 +62,7 @@ public class ParticipantView : IParticipantView
 
             participantView.gameObject.SetActive(true);
 
-            _participantPanelHashMap.Add(
-                participantInfos[i].Id,
-                participantView);
+            _participantPanelHashMap.Add(participantInfos[i].Id, participantView);
         }
     }
 
@@ -88,9 +82,7 @@ public class ParticipantView : IParticipantView
         _participantPanelHashMap[participantId].passImg!.gameObject.SetActive(true); /// try ///
     }
 
-    private ParticipantPanelView GetParticipantPanelView(
-        int currentParticipantIndex,
-        int participantCount)
+    private ParticipantPanelView GetParticipantPanelView(int currentParticipantIndex, int participantCount)
     {
         if (participantCount == 4)
         {
@@ -134,7 +126,7 @@ public class ParticipantView : IParticipantView
                     participantPanel.Value.CharacterImage!.sprite = _characterSelectionService
                         .GetSelectedCharacter().HappyExpression;
 
-                    Common.instance.TotalMoney += 10f;
+                    Common.instance.TotalMoney += 20f;
                 }
                 else
                 {
