@@ -34,13 +34,6 @@ public class ParticipantResolver
                             ParticipantIdEnum.OpponentOne,
                             _cardCollection,
                             _playerInteractionController),
-                        // new ComputerParticipant(
-                        //     ParticipantIdEnum.OpponentFour,
-                        //     "Com0",
-                        //     ParticipantIdEnum.OpponentOne,
-                        //     _cardCollection,
-                        //     _tableInfo,
-                        //     _computeSubmittable),
                         new ComputerParticipant(
                             ParticipantIdEnum.OpponentOne,
                             "Bot_1",   //Com1
@@ -62,6 +55,13 @@ public class ParticipantResolver
                             _cardCollection,
                             _tableInfo,
                             _computeSubmittable)
+                        // new ComputerParticipant(
+                        //     ParticipantIdEnum.OpponentFour,
+                        //     "Com0",
+                        //     ParticipantIdEnum.OpponentOne,
+                        //     _cardCollection,
+                        //     _tableInfo,
+                        //     _computeSubmittable),
                     };
                 return participants;
             default:
