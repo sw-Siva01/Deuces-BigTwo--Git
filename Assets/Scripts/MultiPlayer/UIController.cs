@@ -6,11 +6,15 @@ using UnityEngine.Networking;
 
 public class UIController : MonoBehaviour
 {
+    public static UIController instance;
+
+    public GameObject mainMenuPanel;
+
     public PlayerData myPlayerData = new PlayerData();
 
     public string randomPlayerName, randomPlayerID;
 
-    public bool isAttempToRecon;
+    public bool isInGame, isAttempToRecon;
 
     public System.DateTime appClosedTime;
 
@@ -43,7 +47,16 @@ public class UIController : MonoBehaviour
     public void StartGame()
     {
         InitializePlayerData();
+        PlayerPrefs.SetString("PlayerName", myPlayerData.playerName);
+        PlayerPrefs.SetString("PlayerID", myPlayerData.playerID);
+        PlayerPrefs.Save();
         StartCoroutine(CheckAndConnectMirrorNetwork());
+    }
+    public void ShowGameHUD()
+    {
+        PlayerPrefs.Save();
+        isInGame = true;
+        mainMenuPanel.SetActive(false);
     }
 
     IEnumerator InitializeGame()
@@ -65,6 +78,18 @@ public class UIController : MonoBehaviour
         PlayerManager.localPlayer.UpdatePlayerData(JsonUtility.ToJson(myPlayerData));
         PlayerManager.localPlayer.SearchGame();
     }
+
+    public IEnumerator DisconnectClient()
+    {
+        isInGame = false;
+        //gamehudPanel.SetActive(false);
+        ClearPreviousRoom();
+        yield return new WaitForSeconds(0.5f);
+        NetworkClient.Shutdown();
+        mainMenuPanel.SetActive(true);
+        isInGame = false;
+    }
+
     public void Reconnect()
     {
         StartCoroutine(CheckAndConnectMirrorNetwork());

@@ -2,6 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Mirror;
+using System;
+using System.Security.Cryptography;
+using System.Text;
 
 public class MirrorManager : NetworkBehaviour
 {
@@ -70,5 +73,62 @@ public class MirrorManager : NetworkBehaviour
             Debug.Log($"Match ID does not exist");
             return false;
         }
+    }
+
+    public void PlayerDisconnected(PlayerManager player, string _roomName)
+    {
+        for (int i = 0; i < roomList.Count; i++)
+        {
+            if (roomList[i].roomName == _roomName)
+            {
+                roomList[i].players.RemoveAll(x => x.playerManager == player);
+                roomList[i].isRoomFull = false;
+                if (!isServer) return;
+
+                Debug.Log($"Player disconnected from match {_roomName} | {roomList[i].players.Count} players remaining");
+
+                if (roomList[i].players.Count == 0)
+                {
+                    Debug.Log($"No more players in Match. Attempting Terminating {_roomName}");
+                    StartCoroutine(WaitAndClearMatch(roomList[i]));
+                    //matches.RemoveAt (i);
+                    //matchIDs.Remove (_matchID);
+                }
+                break;
+            }
+        }
+    }
+
+    IEnumerator WaitAndClearMatch(RoomInfo room)
+    {
+        if (!emptyRoomList.Contains(room.roomName))
+            emptyRoomList.Add(room.roomName);
+        else
+            yield break;
+
+        Debug.LogError("Empty room: " + room.roomName);
+        yield return new WaitForSeconds(10);
+        if (room.players.Count == 0)
+        {
+            Debug.LogError("Empty room cleared: " + room.roomName);
+            roomList.Remove(room);
+            roomID.Remove(room.roomName);
+            Destroy(room.gameManagerID.gameObject);
+        }
+        else
+            Debug.LogError("Room clear cancelled, Player count: " + room.players.Count);
+        emptyRoomList.Remove(room.roomName);
+    }
+}
+
+public static class MatchExtensions
+{
+    public static Guid ToGuid(this string id)
+    {
+        MD5CryptoServiceProvider provider = new MD5CryptoServiceProvider();
+        byte[] inputBytes = Encoding.Default.GetBytes(id);
+        byte[] hashBytes = provider.ComputeHash(inputBytes);
+
+        return new Guid(hashBytes);
     }
 }
